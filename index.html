@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<style>
+
+    /* Reset some basic styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Responsive container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About section styling */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-images img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission and Vision section styling */
+.mission-vision-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.mission-vision-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mission, .vision {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.mission h2, .vision h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.mission p, .vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Collaborators section styling */
+.collaborators-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.collaborators-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collaborator {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.collaborator img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.collaborator h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.collaborator p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .about-content, .mission-vision-content {
+        flex-direction: column;
+    }
+
+    .about-text, .mission, .vision, .about-images {
+        margin: 0;
+        flex: none;
+    }
+
+    .about-text h1, .mission h2, .vision h2 {
+        font-size: 28px;
+    }
+
+    .about-text p, .mission p, .vision p {
+        font-size: 16px;
+    }
+
+    .about-images img, .collaborator img {
+        max-width: 100%;
+    }
+
+    .collaborators-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+</style>
+<body>
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>About Us</h1>
+                    <p>
+                       <strong> COLLINS ARALU FOUNDATION</strong>  Facilitate the development of our local communities in nigeria and in africa at 
+                        laerge through an inclusive community-base food sustainability project. We are out to help our local 
+                        communities irrespective  of gender or religion. We make positive influence in the communities through empowering
+                        the society. We work for society where <strong> PEACE AND EQUITY will flourish.</strong> K & C Foundation fosters holistic mentorship
+                        and human development without any arrier or financial hindrance 
+
+                </p>
+                    <p>
+                        With years of experience in the industry, our team is dedicated to helping you achieve your goals 
+                        through innovative solutions tailored to your needs. Join us on this journey to excellence.
+                    </p>
+                </div>
+                <div class="about-images">
+                    <img src="https://leadership.ng/wp-content/uploads/2022/06/child-right.jpg" alt="Our Team">
+                 <!--   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRF7p2dDj2pPsEYCFDgYh3zDHZTT7zAJXi4g&s" alt="Our Office">
+            -->    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-vision-section">
+        <div class="container">
+            <div class="mission-vision-content">
+                <div class="mission">
+                    <h2>Our Mission</h2>
+                    <p>
+                        Our vision is to promote healthy society and a peaceful world at large by
+empowering children and youth, the less privileged and orphans and widows
+through community-based sustainability projects, skills, quality education,
+mentorship and scholarship, equity and diversity. We promote the restoration
+of our local communities, create job opportunities, provide healthy food
+system and with our collective community efforts we create sustainable
+environment around us through promotion of agriculture.
+                    </p>
+                </div>
+                <div class="vision">
+                    <h2>Our Vision</h2>
+                    <p>
+                        Our vision is to promote healthy society and a peaceful world at large by
+empowering children and youth, the less privileged and orphans and widows
+through community-based sustainability projects, skills, quality education,
+mentorship and scholarship, equity and diversity. We promote the restoration
+of our local communities, create job opportunities, provide healthy food
+system and with our collective community efforts we create sustainable
+environment around us through promotion of agriculture.
+                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collaborators-section">
+        <div class="container">
+            <h2>Our Collaborators</h2>
+            <div class="collaborators-content">
+                <div class="collaborator">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=ffd818b2e1&attid=0.1&permmsgid=msg-f:1807435669389029773&th=19154d2a444db18d&view=att&disp=safe" alt="Collaborator 1">
+                    <h3> Mr. COLLINS  KENECHUKWU ARALU </h3>
+                    <p>Chief CHAIRMAN </p>
+                </div>
+                
+            
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>CHIEF  ARALU RAYMOND </h3>
+                    <p> Vice President</p>
+                    
+                </div>
+                   
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>BARR ONYEKWERE GOODLUCK </h3>
+                    <p>TRUSTEE_SECRETARY</p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> BARR OZOHU MONICA .D</h3>
+                    <p> ASSISTANT SECRETARY</p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> MRS CHINWEUBA MARY  </h3>
+                    <p> TREASURER </p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> REV. EBUO KINGSLEY .O  </h3>
+                    <p> COMPLIANCE COORDINATOR</p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> MR ZONGO OMAR </h3>
+                    <p> FINANCIAL AID REPRESENTATIVE </p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> PROF AKINBO OLALEKAN </h3>
+                    <p> MISSION DIRECTOR </p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> MRS ONAH HELEN  </h3>
+                    <p> WOMEN REPRESENTATIVE</p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> MR ODOH MICHAEL .C</h3>
+                    <p> PROJECT MANAGER </p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>HON ALADE HAMMED  </h3>
+                    <p> STOCK KEEPER </p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3> DR CHINWEUBA JAMES .I  </h3>
+                    <p> COMMUNITY DEVELOPMENT OFFICER (CDO)</p>
+                    
+                </div>
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>MR NWACHUKWU  ANTHONY</h3>
+                    <p> MEDIA AND REPRESENTATIVE</p>
+                    
+                </div>
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>MR NWADIALOR ANTHONY </h3>
+                    <p> YOUTH REPRESENTATIVE</p>
+                    
+                </div>
+
+                <div class="collaborator">
+                    <img src=" " alt="Collaborator 3">
+                    <h3>REV. FR OKAFOR PATRICK .A  </h3>
+                    <p>SPIRITUAL DIRECTOR</p>
+                    
+                </div>
+                   
+
+                <div class="collaborator">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=ffd818b2e1&attid=0.1&permmsgid=msg-f:1807432860677806673&th=19154a9c50119a51&view=att&disp=safe" alt="Collaborator 3">
+                    <h3> VICTOR M. TEMILE</h3>
+                    <p>ICT DIRECTOR</p>
+                    <P> CO NTACT: +234 8146804482</P>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
